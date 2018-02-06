@@ -1,0 +1,22 @@
+{
+  "name": "PixelBot",
+  "version": "1.0.0",
+  "description": "Discord wrapper for the Hypixel API.",
+  "main": "bot.js",
+  "author": "PeregrineZ",
+  "dependencies": {
+    "discord.js": "~11.3.0",
+    "querystring": "~0.2.0",
+    "request": "~2.83.0",
+    "winston": "~2.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "scripts": {
+    "start": "babel-node bot.js --presets env,stage-2"
+  }
+}
